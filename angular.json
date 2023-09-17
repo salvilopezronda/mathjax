@@ -27,7 +27,12 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "../../MathJax-2.7.9",
+                "output": "/MathJax-2.7.9/"
+              }
             ],
             "styles": [
               "src/styles.scss"
